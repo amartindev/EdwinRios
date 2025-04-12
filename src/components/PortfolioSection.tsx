@@ -44,7 +44,7 @@ const PortfolioSection = () => {
       title: "Escaleras",
       category: "acabados",
       image: "/projects/escalera01.png",
-      image: "/projects/escalera02.png"
+      image02: "/projects/escalera02.png"
     },
     {
       id: 4,
