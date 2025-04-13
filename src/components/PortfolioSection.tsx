@@ -25,11 +25,12 @@ const PortfolioSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Armarioa Metálicos",
-      category: "acabados",
-      image: "/projects/yellow01.png",
-      image02: "/projects/yellow02.png",
-      image03: "/projects/yellow03.png"
+      title: "Mesas hidráulicas para perros y motos",
+      category: "maquinaria",
+      image: "projects/mesa02.jpg",
+      image02: "projects/mesa01.jpg",
+      image03: "projects/mesa03.jpg",
+      image04: "projects/mesa04.jpg"
     },
     {
       id: 2,
@@ -67,12 +68,12 @@ const PortfolioSection = () => {
     },
     {
       id: 6,
-      title: "Mesas hidráulicas para perros y motos",
-      category: "maquinaria",
-      image: "projects/mesa01.jpg",
-      image02: "projects/mesa02.jpg",
-      image03: "projects/mesa03.jpg",
-      image04: "projects/mesa04.jpg"
+
+      title: "Armarioa Metálicos",
+      category: "acabados",
+      image: "/projects/yellow01.png",
+      image02: "/projects/yellow02.png",
+      image03: "/projects/yellow03.png"
     },
     {
       id: 7,
