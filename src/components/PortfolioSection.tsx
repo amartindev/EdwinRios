@@ -14,6 +14,7 @@ type Project = {
   image02?: string;
   image03?: string;
   image04?: string;
+  image05?: string;
 };
 
 const PortfolioSection = () => {
@@ -48,25 +49,30 @@ const PortfolioSection = () => {
     },
     {
       id: 4,
-      title: "Estructura Cerramiento",
-      category: "estructuras",
-      image: "/projects/cerramiento01.jpeg",
-      image02: "/projects/cerramiento02.jpeg",
-      image03: "/projects/cerramiento03.jpeg",
-      image04: "/projects/cerramiento04.jpeg"
+      title: "Estructuras de decoracion e interiores",
+      category: "acabados",
+      image: "/projects/interior01.jpeg",
+      image02: "/projects/interior02.jpeg",
+      image03: "/projects/interior03.jpeg",
+      image04: "/projects/interior04.jpeg",
+      image05: "/projects/interior05.jpeg"
     },
     {
       id: 5,
-      title: "Contenedores",
-      category: "estructuras",
-      image: "/projects/contenedor01.jpeg",
-      image02: "/projects/contenedor02.jpeg"
+      title: "Mantenimiento de equipos industriales y maquinaria pesada",
+      category: "maquinaria",
+      image: "projects/industrial01.jpg",
+      image02: "projects/industrial02.jpg",
+      image03: "projects/industrial03.png"
     },
     {
       id: 6,
-      title: "Mantenimiento de Maquinaria Pesada",
+      title: "Mesas hidráulicas para perros y motos",
       category: "maquinaria",
-      image: "projects/maquinaria01.png"
+      image: "projects/mesa01.jpg",
+      image02: "projects/mesa02.jpg",
+      image03: "projects/mesa03.jpg",
+      image04: "projects/mesa04.jpg"
     },
     {
       id: 7,
@@ -76,16 +82,19 @@ const PortfolioSection = () => {
     },
     {
       id: 8,
-      title: "Mantenimiento de equipos industriales",
-      category: "maquinaria",
-      image: "projects/industrial01.jpg",
-      image02: "projects/industrial02.jpg"
+      title: "Estructura Cerramiento",
+      category: "estructuras",
+      image: "/projects/cerramiento01.jpeg",
+      image02: "/projects/cerramiento02.jpeg",
+      image03: "/projects/cerramiento03.jpeg",
+      image04: "/projects/cerramiento04.jpeg"
     },
     {
       id: 9,
-      title: "Estructuras de decoracion e interiores",
-      category: "acabados",
-      image: "/projects/interior01.jpeg"
+      title: "Contenedores",
+      category: "estructuras",
+      image: "/projects/contenedor01.jpeg",
+      image02: "/projects/contenedor02.jpeg"
     }
   ];
 
@@ -106,6 +115,7 @@ const PortfolioSection = () => {
     if (project.image02) images.push(project.image02);
     if (project.image03) images.push(project.image03);
     if (project.image04) images.push(project.image04);
+    if (project.image05) images.push(project.image05);
     return images;
   };
 

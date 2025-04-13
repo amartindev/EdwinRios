@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
           <a href="#" className="text-xl md:text-2xl font-montserrat font-bold text-welder-yellow">
-            Edwin Rios <span className="hidden sm:inline text-white">- Soldador Profesional</span>
+          Estructuras Metálicas  <span className="hidden sm:inline text-white">- ERJ</span>
           </a>
 
           {/* Desktop Menu */}

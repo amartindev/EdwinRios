@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 hero-gradient"></div>
       <div className="container mx-auto px-4 z-10 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          Calidad y Precisión en <span className="text-welder-yellow">Servicios de Soldadura</span>
+          Calidad y Precisión en <br/><span className="text-welder-yellow">Estructuras Metálicas</span>
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           Con más de 20 años de experiencia especializada en acabados, estructuras y maquinaria industrial.
