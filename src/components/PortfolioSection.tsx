@@ -71,7 +71,7 @@ const PortfolioSection = () => {
     {
       id: 6,
 
-      title: "Armarioa Metálicos",
+      title: "Armarios Metálicos",
       category: "acabados",
       image: "/projects/yellow01.png",
       image02: "/projects/yellow02.png",
